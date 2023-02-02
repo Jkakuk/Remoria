@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "remoria",
+    "slug": "remoria",
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/skull.png",
+    "splash": {
+      "image": "./assets/recordingsplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0" ,
+      "bundleIdentifier":"come.JoshKakuk.remoria"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/skull.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.JoshKakuk.remoria" ,
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
